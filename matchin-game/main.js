@@ -6,14 +6,15 @@ import BoardGame from "./src/objects/BoardGame";
 
 import CardGame from "./src/components/CardGame";
 import PlayerName from "./src/components/PlayerName";
+import ScoreBoard from './src/objects/BoardGame/ScoreBoard';
 
 const $root = document.querySelector("#root");
 
 $root.insertAdjacentHTML(
     "beforeend",`
-    ${PlayerName('Player1')},
-    ${PlayerName('Player2')},   
-    ${BoardGame(6)}`
+    ${ScoreBoard()},
+    ${BoardGame(6)},
+    `
 );
 
 
