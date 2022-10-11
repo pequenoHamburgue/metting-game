@@ -8,7 +8,7 @@ import CardGame from "./src/components/CardGame";
 import NamePlayer from "./src/components/NamePlayers";
 
 const $root = document.querySelector("#root");
-const $htmlBoardGame = BoardGame(3);
+const $htmlBoardGame = BoardGame(6);
 const $htmlNamePlayer = NamePlayer();
 
 //1- creat 6 cards
