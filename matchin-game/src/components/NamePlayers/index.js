@@ -1,5 +1,5 @@
 import "./style.css";
-function NamePlayer(number) {
+function NamePlayer(){
     return `
     <div class="name-player">
     Player 1
