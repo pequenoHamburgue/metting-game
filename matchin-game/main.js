@@ -8,14 +8,6 @@ import CardGame from "./src/components/CardGame";
 import PlayerName from "./src/components/PlayerName";
 
 const $root = document.querySelector("#root");
-//const $htmlBoardGame = BoardGame();
-const $htmlNamePlayer = PlayerName();
-
-//1- creat 6 cards
-//2- creat components playes
-//3- creat a versing card
-
-//$root.render($htmlCardGame)
 
 $root.insertAdjacentHTML(
     "beforeend",`
